@@ -8,7 +8,7 @@ function App() {
       
         name="Mostafa Raihan"
         email="raihan.invite@gmail.com"
-        phone="+880 1711-123456"
+        phone="+880 01971595464"
         skills={['JavaScript', 'React', 'Django', 'Python']}
         socialLinks={[
           { platformName: 'LinkedIn', url: 'https://www.linkedin.com/in/raihanstack/' },

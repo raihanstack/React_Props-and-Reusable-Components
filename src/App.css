@@ -5,38 +5,92 @@
   text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+body{
+    background: #f4f6f9;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.container{
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
 }
 
-.card {
-  padding: 2em;
+.container h1{
+    text-align: center;
+    color: #2c3e50;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
 }
 
-.read-the-docs {
-  color: #888;
+.container p{
+    font-size: 16px;
+    margin: 8px 0;
+    color: #555;
+}
+
+h2{
+    margin-top: 25px;
+    margin-bottom: 10px;
+    color: #34495e;
+}
+
+.skils ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skils li{
+    background: #3498db;
+    color: white;
+    padding: 8px 14px;
+    border-radius: 6px;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.skils li:hover{
+    background: #2980b9;
+}
+
+.social ul{
+    list-style: none;
+}
+
+.social li{
+    background: #ecf0f1;
+    padding: 10px 15px;
+    margin: 6px 0;
+    border-radius: 6px;
+}
+
+.social a{
+    color: #2980b9;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.social a:hover{
+    text-decoration: underline;
+}
+
+strong{
+    color: #2c3e50;
+}
+@media (max-width:768px){
+    .container{
+        width: 95%;
+        padding: 25px;
+    }
 }
